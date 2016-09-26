@@ -4,7 +4,8 @@
   "description": "## Two folders client and server. Client logic in client and server logic in server.",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^4.6.1"
   },
   "devDependencies": {},
   "scripts": {
