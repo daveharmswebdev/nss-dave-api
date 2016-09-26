@@ -22,6 +22,18 @@ angular
 			})
 	})
 	.controller('chat', function($scope, $http) {
+		$scope.sendMessage = () => {
+			const msg = {
+				author: 'dave',
+				message: $scope.content
+			}
+
+			$http
+				.post('/api/messages', msg)
+				.then(() => $scope.messages.push(msg))
+				.catch(console.error)
+		}
+		
 		$http
 			.get('/api/messages')
 			.then(({data: { messages }} ) => {
