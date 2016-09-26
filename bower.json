@@ -1,0 +1,22 @@
+{
+  "name": "nss-dave-api",
+  "description": "## Two folders client and server. Client logic in client and server logic in server.",
+  "main": "index.js",
+  "authors": [
+    "Dave Harms <daveharmswebdev@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/daveharmswebdev/nss-dave-api",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
